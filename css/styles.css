@@ -1,0 +1,617 @@
+/* #2175BF
+#2165BF
+#BFB85A */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+html {
+    font-size: 62.5%;
+    padding: 20rem;
+    padding-top: 0rem;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, #7b7b7b, #454444);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+h1 {
+    color: black;
+    margin-top: 20px;
+    font-size: 6rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold 700;
+    margin-bottom: 50px;
+    text-align: center;
+    background-position: center;
+}
+
+h1:hover {
+    color: white;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main {
+    background-color: #2175BF;
+    background-position: center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    right: -20%;
+}
+
+article {
+    width: 80%;
+    height: 10rem;
+    background-color: rgb(93, 89, 89);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-sizing: content-box;
+    text-align: left;
+    border-radius: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 0.5rem;
+    border-radius: 20%;
+}
+
+textarea {
+    height: 5rem;
+}
+
+.btn-submit {
+    background-color: rgb(54, 58, 57);
+    border-radius: 2%;
+    width: 2rem;
+    height: 2rem;
+}
+
+header {
+    display: flex;
+    margin-left: -80px;
+    height: 7rem;
+    width: 95rem;
+    padding: 1rem;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    object-fit: fill;
+}
+
+
+.foto-item {
+    width: 400px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.logo-fav {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    margin-left: -50px;
+}
+
+main {
+
+    display: contents;
+}
+
+.botones {
+    width: 3rem;
+    height: 5, 5rem;
+    bottom: 5rem;
+    position: sticky;
+}
+
+.btn-submit {
+    width: 5rem;
+    height: 3rem;
+}
+
+.btn-submit:active {
+    color: white;
+}
+
+.buscador {
+    align-items: center;
+    right: auto;
+    position: relative;
+}
+
+.bi-facebook {
+    color: #2175BF;
+}
+
+.bi-instagram {
+    color: #bd3b8f;
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.nav-c {
+    display: inline-flex;
+}
+
+.padel-historia__item {
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #b4acac;
+}
+
+.copiryght {
+    font-size: 1rem;
+    color: #2175BF;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+
+.lista li:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.mensaje {
+    color: black;
+    font-size: 2rem;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 5fr;
+    gap: 20px;
+}
+
+
+.sabmas {
+    min-width: 300px;
+}
+
+/* Estilo para el footer */
+footer {
+
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los botones de redes sociales */
+footer .botones a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Estilo para el logo de las redes sociales */
+footer .botones a svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.galeria {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+iframe {
+    border-radius: 6%;
+}
+/* .galeria {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+} */
+
+/* mobile */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .fotos {
+        display: block;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1rem;
+    }
+
+    .galeria-img-uno {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    }
+    .galeria-img-dos {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .galeria-img-tres {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .galeria-img-cuatro {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .galeria-img-cinco {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .galeria-img-seis {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-top: 7rem;
+        text-align: start;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        height: 7rem;
+        width: 95rem;
+        padding: 1rem;
+
+    }
+
+    /* #2c3e50 */
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav .buscador input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        width: 25rem;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        margin-left: 0px;
+        margin-right: 40px;
+        padding-left: none;
+        padding-right: 10px;
+        padding-top: 1px;
+
+    }
+
+    header nav ul li a {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .titulo {
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    footer {
+
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .copiryght {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: -25px;
+    }
+
+    footer nav {
+        display: inline;
+
+    }
+
+    footer nav div {
+        display: inline;
+    }
+
+    footer nav div a {
+        display: inline;
+
+    }
+
+    .bi-facebook {
+        margin-right: 150px;
+        margin-left: -10px;
+    }
+
+    .bi-instagram {
+        margin-right: 100px;
+        margin-left: -90px;
+    }
+
+    .bi-whatsapp {
+        margin-left: -60px;
+    }
+
+    .padel-historia__item {
+        width: 30px;
+    }
+
+    article {
+        width: 50%;
+    }
+
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .fotos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 5rem;
+        margin-top: 6rem;
+        text-align: center;
+    }
+
+    .padel-historia {
+        font-size: 3rem;
+        width: 100px;
+        height: 100px;
+        margin-top: -10px;
+        margin-left: 150px;
+        text-align: center;
+
+    }
+
+    main section {
+        margin-bottom: 200px;
+        height: 100px;
+    }
+
+    header {
+        display: flex;
+        margin-left: -60px;
+        height: 7rem;
+        width: 30rem;
+
+
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin-left: -150px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header nav .buscador input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        width: 22rem;
+    }
+
+
+    header nav ul li a {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        font-size: 12px;
+        width: 0px;
+    }
+
+    nav a {
+        margin-left: 80px;
+    }
+
+    .nosotros {
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    footer {
+
+        margin-top: 50px;
+        margin-left: -100px;
+        color: #fff;
+        padding: none;
+        text-align: center;
+    }
+
+    .copiryght {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    footer nav {
+        display: inline;
+
+    }
+
+    footer nav div {
+        display: inline;
+    }
+
+    footer nav div a {
+        display: inline;
+
+    }
+
+    .bi-facebook {
+        margin-right: 150px;
+        margin-left: -10px;
+    }
+
+    .bi-instagram {
+        margin-right: 100px;
+        margin-left: -90px;
+    }
+
+    .bi-whatsapp {
+        margin-left: -60px;
+    }
+
+    .padel-historia__item {
+        width: 30px;
+    }
+
+    article {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .galeria-img-uno {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    }
+    .galeria-img-dos {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .galeria-img-tres {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .galeria-img-cuatro {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .galeria-img-cinco {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .galeria-img-seis {
+        grid-column: 4/5;
+        grid-row: 6/7;
+    }
+}
+/* 768 1023 */
+
+/* header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+/* header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
