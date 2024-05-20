@@ -1,0 +1,102 @@
+main {
+    background-color: none;
+    background-position: center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    right: -20%;
+
+    h1 {
+        color: $negro;
+        margin-top: 20px;
+        font-size: 6rem;
+        font-family: "$fontPoppins", sans-serif;
+        font-style: normal;
+        font-weight: bold 700;
+        margin-bottom: 50px;
+        text-align: center;
+        background-position: center;
+
+        &:hover {
+            color: $blanco;
+        }
+
+        .titulo {
+            text-align: center;
+            font-size: 1rem;
+            margin-top: 10px;
+            color: $grisClaro;
+        }
+    }
+
+    form {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+    .fotos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        object-fit: fill;
+
+        .foto-item {
+            width: 400px;
+            height: 150px;
+            border-radius: 20%;
+        }
+    }
+
+    p {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .padel-historia__item {
+        background-color: $blanco;
+        border-radius: 40px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    article {
+        width: 80%;
+        height: 10rem;
+        background-color: $grisOscuro;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        box-sizing: content-box;
+        text-align: left;
+        border-radius: 20px;
+    }
+
+    input {
+        display: block;
+        margin-bottom: 0.5rem;
+        border-radius: 20%;
+    }
+
+    .mensaje {
+        color: $negro;
+        font-size: 2rem;
+    }
+
+    .btn-submit {
+        width: 5rem;
+        height: 3rem;
+
+
+        &:active {
+            color: $blanco;
+        }
+
+        div textarea #mensaje {
+            height: 5rem;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+* {
+  margin: auto;
+  padding: auto;
+  width: 100%;
+
+  &::selection {
+    background-color: $negro;
+    color: $blanco;
+  }
+}
