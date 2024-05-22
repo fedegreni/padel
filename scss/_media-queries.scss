@@ -97,6 +97,14 @@
         margin-left: 0;
         padding: 1rem;
     }
+    
+    .container-img{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img .box-img img{
+        height: 200px;
+    }
 
     footer .copiryght {
         font-size: 1.5rem;
@@ -201,6 +209,16 @@
     main .btn-submit {
         width: 4.5rem;
         height: 2.8rem;
+    }
+    
+    .container-img{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-rows: 200px;
+    }
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 1;
     }
 
     footer {
