@@ -122,12 +122,6 @@ main h1 {
 main h1:hover {
   color: white;
 }
-main h1 .titulo {
-  text-align: center;
-  font-size: 1rem;
-  margin-top: 10px;
-  color: #7b7b7b;
-}
 main form {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
@@ -146,11 +140,6 @@ main .fotos .foto-item {
   width: 400px;
   height: 150px;
   border-radius: 20%;
-}
-main p {
-  font-family: sans-serif;
-  font-weight: 300;
-  font-style: normal;
 }
 main .padel-historia__item {
   background-color: white;
