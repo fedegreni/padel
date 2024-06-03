@@ -292,13 +292,21 @@ svg {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
-    width: 100%;
+    width: 90%;
     height: auto;
+  }
+  .container-fluid {
+    margin: 0%;
+  }
+  .navbar-toggler {
+    padding: none;
+    margin-right: 20%;
+    margin-left: 0%;
   }
   header nav {
     flex-direction: column;
     padding-left: 0;
-    font-size: 10px;
+    font-size: 5px;
   }
   header nav ul {
     flex-direction: column;
@@ -374,7 +382,16 @@ svg {
     margin-left: 0;
   }
   svg {
-    margin-left: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .botones {
+    flex-direction: column;
+    align-items: center;
+  }
+  .botones a svg {
+    width: 30px;
+    height: 30px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
