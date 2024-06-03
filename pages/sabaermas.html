@@ -18,22 +18,30 @@
 <body>
     <!-- Inicio header -->
     <header>
-        <nav>
-            <a href="../index.html">
-                <img class="logo-fav" src="../assets/favicon-16x16.png" alt="Logo de padel">
-            </a>
-            <div class="buscador">
-                <a href="./Index.html"></a>
-                <input type="search" name="Buscar" id="search" placeholder="Buscar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/faqs.html">Faqs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/sabaermas.html">Saber mas</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <ul class="lista">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./faqs.html">FAQs</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./sabaermas.html">Saber Mas</a></li>
-            </ul>
-        </nav>
+          </nav>
     </header>
     <!-- Final header -->
     <main data-aos="flip-left">
