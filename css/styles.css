@@ -144,6 +144,12 @@ main .padel-historia__item p {
 main .padel-historia__item li {
   font-size: 1.5rem;
 }
+main .clase h2 {
+  font-size: 2.5rem;
+}
+main .clase p {
+  font-size: 1.5rem;
+}
 main article {
   width: 80%;
   height: 10rem;
